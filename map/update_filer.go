@@ -20,6 +20,6 @@ func main() {
 	m := map[string]*data{
 		"x": {"Tom"},
 	}
-	m["z"].name = "what???"
+	//m["z"].name = "what???"
 	fmt.Println(m["x"])
 }
